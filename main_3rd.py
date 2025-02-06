@@ -5,7 +5,7 @@ app=Flask(__name__)
 @app.route("/",methods=["POST","GET"])
 def home():
     if request.method=="POST":
-        if request.form["user"]=="uno" and request.form["word"]=="uno":
+        if request.form["user"]=="uno" and request.form["word"]=="ASTA":
             flag="log in"
         else:
             flag="u failed"
